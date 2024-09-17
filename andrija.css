@@ -1,10 +1,9 @@
-
 body {
-  height: 100vh
+    height: 100vh
 }
 
 main {
-  font-family: 'Kanit', sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
 
 
@@ -15,38 +14,38 @@ main {
     font-family: 'Kanit', sans-serif;
 }
 
-body{
+body {
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(pozadina.jpg);
+    background-image: url(./background.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.imgContainer{
-    object-fit:fill;
+.imgContainer {
+    object-fit: fill;
 }
 
-#smbklogo{
+#smbklogo {
     padding: 5px;
     box-shadow:
-	inset #000000 0 0 0 1px, 
-    inset #303030 0 0 0 2px, 
-    inset #5e5e5e 0 0 0 3px, 
-    inset #777777 0 0 0 4px, 
-    inset #a0a0a0 0 0 0 5px, 
-    inset #d7d7d7 0 0 0 6px, 
-    inset #ededed 0 0 0 7px, 
-    inset #ffffff 0 0 0 8px;
+        inset #000000 0 0 0 1px,
+        inset #303030 0 0 0 2px,
+        inset #5e5e5e 0 0 0 3px,
+        inset #777777 0 0 0 4px,
+        inset #a0a0a0 0 0 0 5px,
+        inset #d7d7d7 0 0 0 6px,
+        inset #ededed 0 0 0 7px,
+        inset #ffffff 0 0 0 8px;
 }
 
-.container{
+.container {
     transform-style: preserve-3d;
 }
 
-.container .box{
+.container .box {
     position: relative;
     width: 500px;
     height: 300px;
@@ -56,7 +55,7 @@ body{
     cursor: pointer;
 }
 
-.container .box .body{
+.container .box .body {
     position: absolute;
     top: 0;
     left: 0;
@@ -66,7 +65,7 @@ body{
     transition: 0.9s ease;
 }
 
-.container .box .body .imgContainer{
+.container .box .body .imgContainer {
     position: absolute;
     top: 0;
     left: 0;
@@ -76,7 +75,7 @@ body{
     background: white;
 }
 
-.imgContainer img{
+.imgContainer img {
     height: 100%;
     object-fit: contain;
 
@@ -86,7 +85,7 @@ body{
     .fs-6 {
         font-size: 0.9rem !important;
     }
-  }
+}
 
 
 /* 
@@ -99,7 +98,7 @@ body{
     object-fit: contain;
 } */
 
-.container .box .body .content{
+.container .box .body .content {
     position: absolute;
     top: 0;
     left: 0;
@@ -112,19 +111,18 @@ body{
     transform: rotateY(180deg);
 }
 
-.container .box:hover .body{
+.container .box:hover .body {
     transform: rotateY(180deg);
 }
 
-.container .box .body .content div{
+.container .box .body .content div {
     transform-style: preserve-3d;
     padding: 30px;
     /* margin-top: 9px; */
-    background: linear-gradient(45deg, #1f1f1f,#a5a4a4);
+    background: linear-gradient(45deg, #1f1f1f, #a5a4a4);
     transform: translateZ(100px);
 }
 
-.container .box .body .content div h3{
+.container .box .body .content div h3 {
     letter-spacing: 1px;
 }
-
